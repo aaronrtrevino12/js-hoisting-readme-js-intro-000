@@ -25,12 +25,3 @@ function sayMyName() {
   //var name = "Cricky";
   sayMy();
 }
-
-
-//var name = "Kristin"
-//var sayMy = sayMyName()
-
-//function sayMyName() {
-//  console.log(name)
-
-//}
