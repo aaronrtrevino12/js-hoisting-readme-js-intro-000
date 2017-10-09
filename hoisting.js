@@ -1,5 +1,5 @@
 function callMe() {
-  var lyric = "maybe";  // Moved variable 
+  var lyric = "maybe";  // Moved variable assignment to the top of current scope
   console.log("I just met you...");
   console.log("and this is crazy..");
   console.log("but here's my number..");
