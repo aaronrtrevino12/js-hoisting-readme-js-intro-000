@@ -20,7 +20,7 @@ function sayMyName(){
   // fix the code in here:
   var name = "Cricky";  // does not print "Cricky" because it is outside the scope of "sayMy" function
   var sayMy = function (){  // function is declared
-    var name = "Kristin";  // variable is defined
+    var name = "Kristin";  // variable is defined inside scope of "sayMy" function
     console.log(name);  // print name("Kristin")
   }
   sayMy();  // call function
