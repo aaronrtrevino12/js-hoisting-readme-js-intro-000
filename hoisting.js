@@ -18,10 +18,10 @@ function crazy(){
 
 function sayMyName(){
   // fix the code in here:
-  var sayMy = function (){
-    var name = "Kristin";
-    console.log(name);
+  var sayMy = function (){  // function is declared
+    var name = "Kristin";  // variable is defined
+    console.log(name);  // print name("Kristin")
   }
   //var name = "Cricky";
-  sayMy();
+  sayMy();  // call function
 }
